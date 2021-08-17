@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="checkout.css">
+    <title>Home - Page</title>
+</head>
+<body>
+
+<!-- Side Nav -->
+
+<div class="sideNav" id="sideNav">
+    <div class="relative-nav">
+  
+        <div class="absolute-nav" id="lines" onclick="openClose()">&#9776</div>
+        <ul class="ul" id="ul">
+            <li >
+                <a href="">New Products</a>
+            </li>
+            <li>
+                <a href="">Rate of users</a>
+            </li>
+            <li>
+                <a href="">Privacy</a>
+            </li>
+            <li>
+                <a href="">Contact us</a>
+            </li>
+           
+        </ul>
+  
+        
+    </div>
+  </div>
+  
+  <!-- end side nav  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="container ">
+    <div class="row  justify-content-lg-between justify-content-md-between justify-content-sm-center justify-content-center aline-item" id="move">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-4 mt-5">
+        <i class="fas fa-search"></i><input class="search-input"  type="search" placeholder="Search" name="" id="">
+    </div>
+    <div class="my-name col-lg-4 col-md-4 col-sm-4 col-4 mt-5">
+        <p class="top-name " id="top-name">Mohammed Al-Issa</p>
+    </div>
+        <div class="icons col-lg-4 col-md-4 col-sm-4 col-4 mt-5">
+            <i class="fas fa-user"></i>
+            <i class="far fa-heart"></i> 
+
+        <div class="relativei"> 
+        <div class="circle"><p>2</p></div>
+        <i class="fas fa-shopping-cart"></i>
+       
+    </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- hr  -->
+
+
+<hr class="hr">
+
+
+
+
+<!-- Nav bar  -->
+
+
+<ul class="nav justify-content-center grey lighten-4 py-4 " id="move1">
+    <li class="nav-item">
+      <a class="nav-link active home" href="index.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link change" href="about.html">ABOUT</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link change" href="shopNew.html">SHOP</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link change" href="#!">CATALOGUE</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link change" href="#!">NEW ARRIVALS</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link change" href="contact.html">CONTACT</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link change" onclick="change()"><i id="moonsun" class="fas fa-moon"></i></a>
+    </li>
+  </ul>
+
+
+<!-- End nav bar -->
+
+<!-- start section gray line  -->
+
+<section class="container-fluid gray" id="move2">
+    <p><span class="home-purpal">Home /</span> <span class="home-purpal">Cart </span>  <span class="about" id="about">/ Checkout</span> </p>
+</section>
+
+<!-- end secrion gry line  -->
+
+<!-- star section one  -->
+
+<section class="container" >
+    <div class="topdiv" id="move3">
+        <p>Returning customer? <span class="home-purpal">Click here</span> to login </p>
+    </div>
+    <div class="row">
+<div class="left col-lg-6 col-md-6 col-sm-12" id="move4">
+<h3>Billing Details</h3>
+<div class="border-gray">
+    <div class="around">
+    <label for="">Country <span class="red">*</span></label><br>
+    <select class="country" name="" id="">
+        <option value="">Select A country</option>
+        <option value="">Egypte</option>
+        <option value="">Iraq</option>
+        <option value="">Jordan</option>
+    </select>
+
+    <div class="flex-flex">
+        <div>
+            <label for="">First Name<span class="red">*</span></label>
+           
+            <input class="first-name-input" type="text" name="" id="">
+        </div>
+    <div class="last-name-div">
+        <label for="">Last Name<span class="red">*</span></label>
+    
+    <input class="last-name-input" type="text" name="" id="">
+    </div>
+    
+        
+    </div>
+    <label class="company" for="">Company Name</label><br>
+
+    <input class="company-input" type="text" name="" id="">
+    <label class="addres-label" for="">Address <span class="red">*</span> </label>
+    <input class="address-input" type="text" name="" id="" placeholder="Street address">
+    <input class="address-input apartment" type="text" name="" id="" placeholder="Apartment,suite, unit etc. (optional)">
+
+    <div class="flex-flex">
+        <div class="state">
+            <label for="">State / Country <span class="red">*</span></label>
+            
+            <input class="last-name-input" type="text" name="" id="">
+            </div>
+        <div>
+            <label for="">Posta / Zip <span class="red">*</span></label>
+           
+            <input class="first-name-input" type="text" name="" id="">
+        </div>
+    
+</div>
+
+
+
+<div class="flex-flex">
+    <div class="email-address">
+        <label for="">Email Address <span class="red">*</span></label>
+       
+        <input class="last-name-input" type="text" name="" id="">
+        </div>
+    <div>
+        <label for="">Phone <span class="red">*</span></label>
+        
+        <input class="first-name-input" type="text" name="" id="">
+    </div>
+
+</div>
+<div class="d-block mt-5">
+<input type="checkbox" name="" id="">
+<label for=""> Create an account?</label>
+</div>
+<div class="d-block">
+<input type="checkbox" name="" id="">
+<label for=""> Ship to A Different Address?</label>
+</div>
+<label class="mt-3 d-block" for="">Order Notes</label>
+<textarea class="txt-area" name="" id=""  rows="5" placeholder="Write your notes here..."></textarea>
+</div>
+</div>
+
+
+
+
+
+ 
+</div>
+
+<div class="right col-lg-6 col-md-6 col-sm-12" id="move5">
+    <h3>Coupon Code</h3>
+    <div class="border-gray">
+        <label class="label" for="">Enteryour coupon code if you have one.</label>
+        <form class="flx-flx" action="">
+            <input class="input-copu" type="text" name="" id="" placeholder="Coupon Code">
+            <input class="btn-btn" type="submit" value="Apply">
+        </form>
+    </div>
+    <h3 class="h3-only">Your Order</h3>
+<div class="gray-color-border">
+<div class="flxe-flxe">
+    <p class="big">Product</p>
+    <p class="big">Total</p>
+</div>
+<hr class="hri">
+<div class="flxe-flxe">
+    <p class="font-big">Top up T-Shirt x 1</p>
+    <p class="padding-padding1 font-big">$250.00</p>
+</div>
+<hr class="hri">
+<div class="flxe-flxe ">
+    <p class="font-big">Polo Shirt X 1</p>
+    <p class="padding-padding2 font-big">$100.00</p>
+</div>
+<hr class="hri">
+<div class="flxe-flxe  ">
+    <p class="big">Cart Subtotal</p>
+    <p class="padding-padding3 font-big">$350.00</p>
+</div>
+<hr class="hri">
+<div class="flxe-flxe">
+    <p class="big">Order Total</p>
+    <p class="big padding-padding4">$350.00</p>
+</div>
+
+
+<div class="payment margin-first"><p>Direct Bank Transfer</p></div>
+<div class="payment margin-2"><p>Cheque Payment</p></div>
+<div class="payment margin-2 margin-bot"><p>Paypal</p></div>
+
+<a href="thanks.html"><button class="btn-btn-btn-btn">shop now</button></a>
+</div>
+</div>
+</div>
+</section>
+
+<hr class="hr">
+<!-- start footer  -->
+
+
+<footer class="container ">
+    <div class="row" id="move6">
+       <div class=" col-lg-6 col-md-6 col-sm-12 ">
+           <h3>Navigation</h3>
+          <div class="flix navigations-list">
+           <ul>
+               <li><a href="#">Sell online</a></li>
+               <li><a href="#">Features</a></li>
+               <li><a href="#">Shopping cart</a></li>
+               <li><a href="#">Store builder</a></li>
+                
+            </ul>
+            <ul>
+                <li><a href="#">Mobile commerce</a></li>
+               <li><a href="#">Dropshipping</a></li>
+               <li><a href="#">Point of sale</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Point of sale</a></li>
+               <li><a href="#">Hardware</a></li>
+               <li><a href="#">Software</a></li>
+            </ul>
+          </div>
+        </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 promo">
+          <h3>Promo</h3>
+          <div><img src="Images/hero_1.jpg" class="img-shoe-footer" width="250px" alt="hero_1"></div>
+          <p class="p-p-1">Finding Your Perfect Shoes</p>
+          <p class="p-p-2">Promo from nuary 15 - 25,2019</p>
+        </div>
+       <div class="col-lg-3 col-md-3 col-sm-12">
+           <h3>Contact Info</h3>
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> 203 Fake St. Mountain View, San Francisco, California, USA</p>
+            <p><i class="fas fa-phone-alt"></i> +2 392 3929210</p>
+            <p><i class="fas fa-envelope"></i> emailaddress@domain.com</p>
+        </div>
+
+        <div class="subscribe-margin-top">
+            <p>Subscribe</p>
+            <div class="flix-flix" >
+                <input type="email" name="" id="inputbtnDown" placeholder="Email">
+               
+                <button class="btn-btn-btn">send</button>
+            
+            </div>
+        </div>
+        
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 flx-footer" >
+            <p>Copyright 2021 All rights reserved | this template is made with <i class="fas fa-heart"></i> by <span class="paars">Mohammed Al-Issa</span> </p>
+        </div>
+    </div>
+</footer>
+
+    <script src="jquery-3.5.1.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="checkout.js"></script>
+</body>
+</html>
+
+
+
+

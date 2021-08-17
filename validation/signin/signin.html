@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="signin.css">
+    <title>Sing-In</title>
+</head>
+<body>
+    <section class="container">
+        <div class="row align-items-center mt-5">
+      <div class="left col-lg-6 col-md-6 col-sm-12">
+            <p class="p-top">Sign-In</p>
+            <div class="first-div">
+                <input id="email" type="text" placeholder="Put your e-mail here :">
+            </div>
+            <div class="second-div">
+                <input id="password" type="password" placeholder="Put your password here :">
+                <label id="error" class="error mt-2"></label>
+            </div>
+            
+            <button class="btn-btn" onclick="check()">Sign-In</button>
+            <p class="p-down mt-2">If you forget your password <a href=""><span>click here</span></a>.</p>
+
+            <div class="signup-div">
+            <p class="p-down mt-2">Don't have account click here on "sign-up" button to get new account.</p>
+            <button class="btn-btn" onclick="wait()">Sign-Up</button>
+              </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <img  src="/bootstrap website full project (Web-Site Modify)/validation/signin/images/image.png" width="500px" alt="">
+        </div>
+    </div>
+    
+    </section>
+
+
+
+
+
+    <script src="jquery-3.5.1.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="singin.js"></script>
+</body>
+</html>

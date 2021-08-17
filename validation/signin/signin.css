@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightpink;
+}
+
+.left .p-top{
+font-size: 30px;
+font-weight: 500;
+color:rebeccapurple;
+}
+
+.left div{
+    margin-bottom:20px ;
+}
+
+input{
+    width:50%;
+    height: 50px;
+    border:3px solid rebeccapurple;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+}
+::placeholder{
+    text-align: center;
+}
+img{
+    border:3px solid rebeccapurple;
+    border-radius: 8px;
+}
+
+.btn-btn{
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rebeccapurple;
+    color:white;
+    border-color: transparent;
+}
+
+.btn-btn:hover{
+    background-color:orchid;
+}
+
+.p-down{
+    font-size: 15px;
+}
+
+.signup-div{
+    margin-top: 180px;
+}
+
+.error{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+}
+.newError{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+}

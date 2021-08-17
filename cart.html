@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="cart.css">
+    <title>Home - Page</title>
+</head>
+<body>
+
+
+<!-- Side Nav -->
+
+<div class="sideNav" id="sideNav">
+    <div class="relative-nav">
+  
+        <div class="absolute-nav" id="lines" onclick="openClose()">&#9776</div>
+        <ul class="ul" id="ul">
+            <li >
+                <a href="">New Products</a>
+            </li>
+            <li>
+                <a href="">Rate of users</a>
+            </li>
+            <li>
+                <a href="">Privacy</a>
+            </li>
+            <li>
+                <a href="">Contact us</a>
+            </li>
+        </ul>
+  
+        
+    </div>
+  </div>
+  
+  <!-- end side nav  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="container">
+    <div class="row justify-content-lg-between justify-content-md-between justify-content-sm-center justify-content-center aline-item" id="move">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-4  mt-5">
+        <i class="fas fa-search"></i><input class="search-input" type="search" placeholder="Search" name="" id="">
+    </div>
+    <div class="my-name col-lg-4 col-md-4 col-sm-4 col-4  mt-5">
+        <p class="top-name " id="top-name">Mohammed Al-Issa</p>
+    </div>
+        <div class="icons col-lg-4 col-md-4 col-sm-4 col-4  mt-5">
+            <i class="fas fa-user"></i>
+            <i class="far fa-heart"></i> 
+
+        <div class="relativei"> 
+        <div class="circle"><p>2</p></div>
+        <i class="fas fa-shopping-cart"></i>
+       
+    </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- hr  -->
+
+
+<hr class="hr">
+
+
+
+
+<!-- Nav bar  -->
+
+
+<ul class="nav justify-content-center grey lighten-4 py-4 " id="move1">
+    <li class="nav-item">
+      <a class="nav-link active home" href="index.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link change" href="about.html">ABOUT</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link change" href="shopNew.html">SHOP</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link change" href="#!">CATALOGUE</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link change" href="#!">NEW ARRIVALS</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link change" href="contact.html">CONTACT</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link change" onclick="change()"><i id="moonsun" class="fas fa-moon"></i></a>
+    </li>
+  </ul>
+
+
+<!-- End nav bar -->
+
+<!-- start section gray line  -->
+
+<section class="container-fluid gray" id="move2">
+    <p><span class="home-purpal">Home </span> <span class="about" id="about">/ Cart</span> </p>
+</section>
+
+<!-- end secrion gry line  -->
+
+<!-- start section one (table)  -->
+
+
+<section class="container margin-top-table">
+    <div class="row" id="move3">
+        <table style="width: 100%; border-color: lightgray;" border="1">
+            <tbody>
+                <tr>
+                    <td class="big">Image</td>
+                    <td class="big">Product</td>
+                    <td class="big">Price</td>
+                    <td class="big">Quantity</td>
+                    <td class="big">Total</td>
+                    <td class="big">Remove</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/cloth_1.jpg" style="padding:18px 0"  width="150px" alt=""></td>
+                    <td class="bigi">Top Up T-Shirt</td>
+                    <td class="width">$49.00</td>
+                    <td><div class="div-btns"><button onclick="minOne1();" class="btn-bt l">-</button>
+                        <input id="topi" class="plus-one" value="1" type="text"><button class="btn-bt r" onclick="plusOne1();">+</button></div></td>
+                    <td>$49.00</td>
+                    
+                    <td><button class="btn-top">X</button></td>
+                </tr>
+                <tr>
+                    <td><img src="images/cloth_2.jpg" style="padding:18px 0" width="150px" alt=""></td>
+                    <td class="bigi">Polo Shirt</td>
+                    <td >$49.00</td>
+                    <td><div class="div-btns"><button onclick="minOne();" class="btn-bt l">-</button>
+                        <input id="count" class="plus-one" value="1" type="text"><button class="btn-bt r" onclick="plusOne();">+</button></div></td>
+                    <td class="width">$49.00</td>
+                    <td style="width:150px"><button class="btn-top">X</button></td>
+                </tr>
+            </tbody>
+        </table>
+     
+    </div>
+    </section>
+<!-- end section one (table)  -->
+
+<!-- start section two  -->
+<section class="container">
+    <div class="row" id="move4">
+        <div class=" col-lg-8 col-md-6 col-sm-12  left p-0 ">
+            
+<button class="btn-pupale">update cart</button>
+<button class="btn-white-bg">continue shopping</button>
+
+    
+    <div>
+        <h3 class="coupon">Coupon</h3>
+        <p class="gray-color">Enter Your Coupon code if you have one.</p>
+                
+                <input class="input-coupon" type="text" name="" id="" placeholder="Coupon Code">
+                <button class="btn-pupale-kort">apply coupon</button>
+          
+            </div>
+</div>
+      <div class="right col-lg-4 col-md-6 col-sm-12 p-0">
+        <h4>CART TOTALS</h4>
+        <hr>
+        <div class="flixi">
+            <p>Subtotal</p>
+            <p>$230.00</p>
+        </div>
+        <div class="flixi">
+            <p>Total</p>
+            <p>$230.00</p>
+        </div>
+      <a href="checkout.html">  <button class="btn-pupale check-out">proceed to checkout</button></a>
+      </div>
+    </div>
+</section>
+<!-- end section two  -->
+
+
+
+<!-- start footer  -->
+
+
+<footer class="container ">
+    <div class="row" id="move5">
+       <div class=" col-lg-6 col-md-6 col-sm-12 ">
+           <h3>Navigation</h3>
+          <div class="flix navigations-list">
+           <ul>
+               <li><a href="#">Sell online</a></li>
+               <li><a href="#">Features</a></li>
+               <li><a href="#">Shopping cart</a></li>
+               <li><a href="#">Store builder</a></li>
+                
+            </ul>
+            <ul>
+                <li><a href="#">Mobile commerce</a></li>
+               <li><a href="#">Dropshipping</a></li>
+               <li><a href="#">Point of sale</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Point of sale</a></li>
+               <li><a href="#">Hardware</a></li>
+               <li><a href="#">Software</a></li>
+            </ul>
+          </div>
+        </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 promo">
+          <h3>Promo</h3>
+          <div><img src="Images/hero_1.jpg" class="img-shoe-footer" width="250px" alt="hero_1"></div>
+          <p class="p-p-1">Finding Your Perfect Shoes</p>
+          <p class="p-p-2">Promo from nuary 15 - 25,2019</p>
+        </div>
+       <div class="col-lg-3 col-md-3 col-sm-12">
+           <h3>Contact Info</h3>
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> 203 Fake St. Mountain View, San Francisco, California, USA</p>
+            <p><i class="fas fa-phone-alt"></i> +2 392 3929210</p>
+            <p><i class="fas fa-envelope"></i> emailaddress@domain.com</p>
+        </div>
+
+        <div class="subscribe-margin-top  ">
+            <p>Subscribe</p>
+            <div class="flix-flix" >
+                <input type="email" name="" id="inputbtnDown" placeholder="Email">
+               
+                <button class="btn-btn-btn">send</button>
+            
+            </div>
+        </div>
+        
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 flx-footer" >
+            <p>Copyright 2021 All rights reserved | this template is made with <i class="fas fa-heart"></i> by <span class="paars">Mohammed Al-Issa</span> </p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="jquery-3.5.1.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
+
+
+

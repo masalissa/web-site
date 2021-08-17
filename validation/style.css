@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255, 182, 193, 0.164) ;
+}
+.header{
+    font-size: large;
+    font-weight: 500;
+}
+.border-color{
+    padding:4%;
+    border-radius: 8px;
+    border:1px solid palevioletred;
+}
+
+.width-input{
+    width:100%;
+}
+
+
+.lastName{
+    width: 30%;
+   margin-left: 20px;
+}
+.firstName{
+    width: 30%;
+}
+.border-color input{
+    margin-bottom: 25px;
+    border-radius: 8px;
+    padding: 10px;
+    border:1px solid palevioletred;
+    outline: none;
+}
+
+.textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border:1px solid palevioletred;
+    outline: none;
+}
+
+.border-color p{
+    color:gray;
+}
+
+
+.btn-regis{
+    display: block;
+    margin: auto;
+    border: 3px solid palevioletred;
+    
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: purple;
+    color: white;
+   
+}
+
+/* right side  */
+
+.border-wrong{
+    border:2px solid red;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.correct{
+    border:2px solid green;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.errer{
+    text-shadow: 0 0 10px red;
+    /* text-align: center;
+    margin:0;
+    padding: 10px; */
+
+}
+
+.image{
+    opacity: 0.9;
+    border-radius: 8px;
+}
+
+@media screen and (min-width:300px) and (max-width:375px){
+    .top-name{
+        width:152px;
+    }
+}
+
+body{
+    opacity: 0.5;
+}

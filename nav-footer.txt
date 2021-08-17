@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Home - Page</title>
+</head>
+<body>
+
+<header class="container mt-5">
+    <div class="row justify-content-lg-between justify-content-md-between justify-content-sm-center justify-content-center aline-item">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+        <i class="fas fa-search"></i><input  type="search" placeholder="Search" name="" id="">
+    </div>
+    <div class="my-name col-lg-4 col-md-4 col-sm-4 col-4">
+        <p class="top-name ">Mohammed Al-Issa</p>
+    </div>
+        <div class="icons col-lg-4 col-md-4 col-sm-4 col-4">
+            <i class="fas fa-user"></i>
+            <i class="far fa-heart"></i> 
+
+        <div class="relativei"> 
+        <div class="circle"><p>2</p></div>
+        <i class="fas fa-shopping-cart"></i>
+       
+    </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- hr  -->
+
+
+<hr class="hr">
+
+
+
+
+<!-- Nav bar  -->
+
+
+<ul class="nav justify-content-center grey lighten-4 py-4 ">
+    <li class="nav-item">
+      <a class="nav-link active home" href="#!">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link change" href="#!">ABOUT</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link change" href="#!">SHOP</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link change" href="#!">CATALOGUE</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link change" href="#!">NEW ARRIVALS</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link change" href="#!">CONTACT</a>
+      </li>
+  </ul>
+
+
+<!-- End nav bar -->
+
+<!-- start section gray line  -->
+
+<section class="container-fluid gray">
+    <p><span class="home-purpal">Home </span>/ <span class="about">About</span> </p>
+</section>
+
+<!-- end secrion gry line  -->
+
+
+<!-- start footer  -->
+
+
+<footer class="container ">
+    <div class="row">
+       <div class=" col-lg-6 col-md-6 col-sm-12 ">
+           <h3>Navigation</h3>
+          <div class="flix navigations-list">
+           <ul>
+               <li><a href="#">Sell online</a></li>
+               <li><a href="#">Features</a></li>
+               <li><a href="#">Shopping cart</a></li>
+               <li><a href="#">Store builder</a></li>
+                
+            </ul>
+            <ul>
+                <li><a href="#">Mobile commerce</a></li>
+               <li><a href="#">Dropshipping</a></li>
+               <li><a href="#">Point of sale</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Point of sale</a></li>
+               <li><a href="#">Hardware</a></li>
+               <li><a href="#">Software</a></li>
+            </ul>
+          </div>
+        </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 promo">
+          <h3>Promo</h3>
+          <div><img src="Images/hero_1.jpg" class="img-shoe-footer" width="250px" alt="hero_1"></div>
+          <p class="p-p-1">Finding Your Perfect Shoes</p>
+          <p class="p-p-2">Promo from nuary 15 - 25,2019</p>
+        </div>
+       <div class="col-lg-3 col-md-3 col-sm-12">
+           <h3>Contact Info</h3>
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> 203 Fake St. Mountain View, San Francisco, California, USA</p>
+            <p><i class="fas fa-phone-alt"></i> +2 392 3929210</p>
+            <p><i class="fas fa-envelope"></i> emailaddress@domain.com</p>
+        </div>
+
+        <div class="subscribe-margin-top  ">
+            <p>Subscribe</p>
+            <div class="flix-flix" >
+                <input type="email" name="" id="" placeholder="Email">
+               
+                <button class="btn-btn-btn">send</button>
+            
+            </div>
+        </div>
+        
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 flx-footer" >
+            <p>Copyright 2021 All rights reserved | this template is made with <i class="fas fa-heart"></i> by <span>Mohammed Al-Issa</span> </p>
+        </div>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/ca72f00b9f.js"></script>
+    <script src="jquery-3.5.1.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
+
+
+--------------------css --------------------------------
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.aline-item{
+    align-items: center;
+}
+.relativei{
+    position: relative;
+    display:inline-block;
+}
+.circle{
+    text-align: center;
+    width:22px;
+    height: 22px;
+    background-color: #7971ea;
+    border-radius: 50%;
+    position: absolute;
+    top:-22px;
+    right:-13px;
+    color:white;
+    font-size: 14px;
+}
+.relativei:hover .circle{
+    transform: translate(0,-7px);
+    transition: all 0.5s ease;
+}
+
+.relativei:not(:hover) .circle{
+    transform: translate(0,0px);
+    transition: all 0.5s ease;
+}
+
+.my-name{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons i{
+    margin-left:10px;
+    font-size: 18px;
+}
+i {
+    color:gray;
+}
+
+i:hover{
+    color:#7971ea;
+    cursor: pointer;
+}
+input[type="search"]{
+    border:1px solid transparent;
+    outline: none;
+    margin-left:15px;
+    width:100px;
+}
+
+input[type="search"]:focus{
+    transform:translate(-15px);
+    transition: all 0.5s ease;
+}
+input[type="search"]:not(:focus){
+    transform:translate(15px);
+    transition: all 0.5s ease;
+}
+
+.top-name{
+    border:3px solid black;
+    color:black;
+    letter-spacing: 3px;
+    padding:5px 8px;
+    font-size: 20px;
+}
+
+/* hr  */
+
+.hr{
+    margin-top:50px;
+   
+}
+
+@media screen and (max-width:1920px) {
+
+    .top-name{
+        
+        width:70%
+    }
+    
+}
+@media screen and (max-width:768px) {
+
+    .top-name{
+        
+        width:111%
+    }
+    
+}
+
+
+/* Nav-bar  */
+
+.home{
+    color:#7971ea;
+}
+.change{
+color:gray;
+font-size: 15px;
+font-weight: 500;
+margin-left:30px;
+}
+.change:hover{
+    color: #7971ea;
+}
+
+
+
+
+
+
+
+
+/* start section gray line  */
+
+.gray{
+    background-color: #f8f9fa;
+    padding:25px 100px;
+    
+
+}
+.gray p{
+    margin:0;
+}
+.home-purpal{
+    color: #7971ea;
+}
+
+.about{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* end gray line section  */
+
+
+
+
+
+
+
+
+/* start footer  */
+
+.hr-footer{
+    margin-top:200px;
+    margin-bottom: 100px;
+}
+.flix{
+    display: flex;
+}
+.navigations-list ul{
+    list-style: none;
+  margin-right: 50px;
+  
+}
+.navigations-list ul li{
+    margin-top: 20px;
+}
+.navigations-list ul li a{
+    text-decoration: none;
+    color:gray;
+}
+.navigations-list ul li a:hover{
+    color:#7971ea;
+}
+
+.img-shoe-footer{
+    border-radius: 5px;
+    width:100%;
+}
+.promo p{
+    margin:0;
+    padding:0;
+}
+.promo p.p-p-1{
+    margin-top:25px;
+    
+    padding:0;
+    color:#7971ea;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.promo p.p-p-2{
+    margin:0;
+    padding:0;
+    color:gray;
+}
+.promo div img {
+    margin-top:15px;
+}
+.contact-info{
+    margin-top:15px;
+}
+.contact-info p i{
+    color: #7971ea;
+}
+.subscribe-margin-top{
+    margin-top: 50px;
+}
+.subscribe-margin-top p{
+    font-size: 22px;
+    font-weight: normal;
+}
+.flix-flix{
+    display: flex;
+    border:1px solid lightgray;
+    justify-content: space-between;
+    padding:2px 0;
+    padding-right: 2px;
+    
+}
+
+.flix-flix input[type=email]{
+    border-color:transparent;
+    outline: none;
+    padding-left: 10px;
+   width:165px;
+}
+
+.btn-btn-btn{
+    background-color:#7971ea;
+    color:white;
+    border-radius: 3px;
+    height: 45px;
+    width: 150px;
+    border-color: transparent;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size:small;
+   
+    transition: all 0.3s ease;
+}
+
+.btn-btn-btn:hover{
+    box-shadow: 0 0 10px black;
+    transform: translate(0 , -7px);
+    background-color: blueviolet;
+}
+
+.flx-footer{
+    text-align: center;
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width:1199px) {
+    .flix-flix{
+        width:238px;
+    }
+}
+
+
+
+
+
+
+
+
+
